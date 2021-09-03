@@ -1,7 +1,7 @@
 ### Consider a sample space S consisting of all perfect squares starting from 1, 4, 9 and so on. You are given a number N, you have to output the number of integers less than N in the sample space S.
 
-### Expected Time Complexity: O(sqrt(N))
-### Expected Auxiliary Space: O(1)
+## Expected Time Complexity: O(sqrt(N))
+## Expected Auxiliary Space: O(1)
 
 ## Example 1:
 
