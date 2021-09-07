@@ -1,27 +1,14 @@
-String state;
-void setup()
-{
-  pinMode(12, OUTPUT);
-  Serial.begin(9600);
-}
-void loop()
-{
-  state=Serial.readString();
-  if(state=="ON"){
-    digitalWrite(12,HIGH);
-    Serial.println("ON");
-  delay(5000);
-}
-else if(state=="OFF"){
-  digitalWrite(12, LOW);
-    Serial.println("OFF");
-  delay(5000);
-}
-  else{
-    Serial.println("blink");
-     digitalWrite(12, HIGH);
-    delay(1000);
-    digitalWrite(12, LOW);
-     delay(1000);
-  }
-}
+class Solution:
+    def findTwoElement( self,arr, n): 
+        # code here
+        for i in range(n):
+            if arr[abs(arr[i])-1]>0:
+                arr[abs(arr[i])-1] = -arr[abs(arr[i])-1]
+            else:
+                repeating = abs(arr[i])
+                
+        for i in range(n):
+            if arr[i] > 0:
+                missing = i+1
+                
+        return repeating, missing
