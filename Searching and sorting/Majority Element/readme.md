@@ -1,10 +1,15 @@
-### Optimum location of point to minimize total distance
-## Given a set of points as and a line as ax+by+c = 0. We need to find a point on given line for which sum of distances from given set of points is minimum. 
+# Majority Element
+## Given an array A of N elements. Find the majority element in the array. A majority element in an array A of size N is an element that appears more than N/2 times in the array.
+### Expected Time Complexity: O(N).
+### Expected Auxiliary Space: O(1).
+### Example 1:
 
-
-
-## Example 1:
-
-`In above figure optimum location of point of x - y - 3 = 0 line 
-is (2, -1), whose total distance with other points is 20.77, 
-which is minimum obtainable total distance.`
+`Input:
+N = 3 
+A[] = {1,2,3} 
+Output:
+-1
+Explanation:
+Since, each element in 
+{1,2,3} appears only once so there 
+is no majority element.`
